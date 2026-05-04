@@ -1,0 +1,14 @@
+package br.edu.fzl.EventoP2LBD.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import br.edu.fzl.EventoP2LBD.model.Candidato;
+
+@Repository
+public interface LoginRepository extends JpaRepository<Candidato, Long> {
+	@Query(value = "CALL validar_login :login, :senha", nativeQuery = true)
+	Integer validarLogin(@Param("login") String login, @Param("senha") String senha);
+}
