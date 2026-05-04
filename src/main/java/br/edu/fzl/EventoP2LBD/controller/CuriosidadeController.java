@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import br.edu.fzl.EventoP2LBD.service.CuriosidadeService;
 import br.edu.fzl.EventoP2LBD.service.PopularBDService;
 import br.edu.fzl.EventoP2LBD.service.VideogameService;
-
+//SRP CADA TELA TEM SEU CONTROLLER
 @Controller
 public class CuriosidadeController {
 

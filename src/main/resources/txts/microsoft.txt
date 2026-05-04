@@ -13,5 +13,3 @@ O Hotmail foi um dos primeiros serviços de e-mails baseados na web.
 O Primeiro Xbox tinha um arquitetura similar a computadores, facilitando o desenvolvimento de jogos.
 O Windows 95 foi um enorme sucesso global e ajudou a popularizar a interface gráfica com o botão iniciar, facilitando o uso e deixando o sistema mais intuitivo a leigos.
 O pacote Office (Word, Excel) foi lançado inicialmente para computadores Macintosh da Apple em 1989.
-
-

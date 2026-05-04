@@ -55,6 +55,8 @@ public class PopularBDService {
 	private void popularCuriosidades() throws IOException {
 		List<Videogame> videogames = vService.listarTodos();
 		for (Videogame v : videogames) {
+			// OCP -> caso precise adicionar mais uma marca só adicionar no txt, 
+			// não sendo chumbado direto no codigo
 			popularCuriosidades(v.getNome().toLowerCase() + ".txt", v);
 		}
 	}

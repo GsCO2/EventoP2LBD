@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 import br.edu.fzl.EventoP2LBD.model.Mensagem;
 import br.edu.fzl.EventoP2LBD.service.MensagemService;
 import jakarta.servlet.http.HttpSession;
-
+//SRP CADA TELA TEM SEU CONTROLLER
 @Controller
 public class AdminTipoController {
 

@@ -7,7 +7,8 @@ import org.springframework.data.repository.query.Param;
 
 import br.edu.fzl.EventoP2LBD.model.Curiosidade;
 import br.edu.fzl.EventoP2LBD.model.Videogame;
-
+//SRP -> cada classe tem seu repo
+//ISP -> APENAS METODOS QUE VAI UTILIZAR
 public interface CuriosidadeRepository extends JpaRepository<Curiosidade, Integer>{
 	@Query(value = "CALL sp_ObterCuriosidadeAleatoria :videogameId", nativeQuery = true)
     String buscarCuriosidadeAleatoria(int videogameId);
@@ -15,5 +16,5 @@ public interface CuriosidadeRepository extends JpaRepository<Curiosidade, Intege
 	long countByVideogame(Videogame videogame);
 	
 	@Procedure(procedureName = "sp_ObterCuriosidadeAleatoria")
-    String sortearCuriosidade(@Param("marca_id") Integer marcaId);
+    String sortearCuriosidade(@Param("videogame_id") Integer videogameId);
 }

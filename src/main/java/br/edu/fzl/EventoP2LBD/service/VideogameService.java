@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import br.edu.fzl.EventoP2LBD.model.Videogame;
 import br.edu.fzl.EventoP2LBD.repository.VideogameRepository;
+//SRP - Cada entidade tem seu Service
 
 @Service
 public class VideogameService {

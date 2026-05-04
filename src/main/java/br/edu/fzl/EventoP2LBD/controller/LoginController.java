@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import br.edu.fzl.EventoP2LBD.service.LoginService;
 import jakarta.servlet.http.HttpSession;
-
+//SRP CADA TELA TEM SEU CONTROLLER
 @Controller
 public class LoginController {
 

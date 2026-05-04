@@ -26,20 +26,20 @@
 
 			<div class="filtros-container"
 				style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 25px;">
-				<a href="<c:url value='/consultaCandidatos?acao=ordenarCurso'/>"
+				<a href="<c:url value='/consultaCandidatos?acao=ordenarCurso'/> " style="color:white"
 					class="btn" style="flex: 1; text-align: center; font-size: 0.8rem;">
-					Ordenar por Curso </a> <a
-					href="<c:url value='/consultaCandidatos?acao=ordenarBairro'/>"
+					Ordenar por Curso </a> <a	
+					href="<c:url value='/consultaCandidatos?acao=ordenarBairro'/>"  style="color:white"
 					class="btn" style="flex: 1; text-align: center; font-size: 0.8rem;">
 					Ordenar por Bairro </a> <a
-					href="<c:url value='/consultaCandidatos?acao=primeiros'/>"
+					href="<c:url value='/consultaCandidatos?acao=primeiros'/>"  style="color:white"
 					class="btn" style="flex: 1; text-align: center; font-size: 0.8rem;">
 					10 Primeiros </a> <a
-					href="<c:url value='/consultaCandidatos?acao=ultimos'/>"
+					href="<c:url value='/consultaCandidatos?acao=ultimos'/>"  style="color:white"
 					class="btn" style="flex: 1; text-align: center; font-size: 0.8rem;">
-					10 Últimos </a> <a href="<c:url value='/consultaCandidatos'/>"
+					10 Últimos </a> <a href="<c:url value='/consultaCandidatos'/>"  style="color:white"
 					class="btn"
-					style="flex: 0.5; text-align: center; background: #666; font-size: 0.8rem;">
+					style="flex: 0.5; text-align: center; background: #666; font-size: 0.8rem;"  style="color:white"> 
 					Limpar </a>
 			</div>
 

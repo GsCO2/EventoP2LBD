@@ -10,7 +10,7 @@ import br.edu.fzl.EventoP2LBD.model.Candidato;
 import br.edu.fzl.EventoP2LBD.model.Curso;
 import br.edu.fzl.EventoP2LBD.repository.CandidatoRepository;
 import br.edu.fzl.EventoP2LBD.repository.CursoRepository;
-
+//SRP - Cada entidade tem seu Service
 @Service
 public class CandidatoService {
 	@Autowired

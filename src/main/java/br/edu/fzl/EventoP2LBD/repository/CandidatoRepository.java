@@ -7,7 +7,8 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import br.edu.fzl.EventoP2LBD.model.Candidato;
-
+// SRP -> cada classe tem seu repo
+// ISP -> APENAS METODOS QUE VAI UTILIZAR
 public interface CandidatoRepository extends JpaRepository<Candidato, Integer> {
 	@Query("SELECT cd FROM Candidato cd JOIN cd.curso cs WHERE LOWER(cs.nome) = LOWER(:nome)")
 	List<Candidato> findByCursoInteresse(@Param("nome") String nome);

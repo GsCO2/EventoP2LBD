@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import br.edu.fzl.EventoP2LBD.service.CandidatoService;
 import jakarta.servlet.http.HttpSession;
-
+// SRP CADA TELA TEM SEU CONTROLLER
 @Controller
 @RequestMapping("/consultaCandidatos")
 public class AdminCandidatoController {

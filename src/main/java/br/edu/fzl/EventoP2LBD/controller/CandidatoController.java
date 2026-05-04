@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import br.edu.fzl.EventoP2LBD.service.CandidatoService;
 import br.edu.fzl.EventoP2LBD.service.CursoService;
-
+//SRP CADA TELA TEM SEU CONTROLLER
 @Controller
 public class CandidatoController {
 	@Autowired
