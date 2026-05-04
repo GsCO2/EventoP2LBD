@@ -15,12 +15,12 @@ public class CursoService {
 	
 	public String inserir(Curso c) {
 		cRepo.save(c);
-		return "Mensagem salva";
+		return "Curso salvo";
 	}
 	
 	public String alterar(Curso c) {
 		cRepo.save(c);
-		return "Mensagem alterada";
+		return "Curso alterado";
 	}
 	
 	public Curso buscar(Curso c) throws Exception {
@@ -29,6 +29,11 @@ public class CursoService {
 	
 	public List<Curso> listar() {
 		return cRepo.findAll();
+	}
+	
+	public String deletar(Curso c) {
+		cRepo.delete(c);
+		return "Curso excluído";
 	}
 	
 }

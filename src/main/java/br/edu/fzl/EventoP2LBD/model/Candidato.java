@@ -4,6 +4,8 @@ import java.time.LocalDateTime;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
@@ -24,14 +26,15 @@ import lombok.ToString;
 public class Candidato {
 
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id", nullable = false)
 	private int id;
 	@Column(name = "nome", length = 100, nullable = false)
 	private String nome;
-	@Column(name = "email", length = 75, nullable = false, unique = true)
+	@Column(name = "email", length = 75, nullable = false)
 	private String email;
-	@Column(name = "celular", length = 11, nullable = false, unique = true)
-	private String telefone;
+	@Column(name = "celular", length = 11, nullable = false)
+	private String celular;
 	@Column(name = "bairro", length = 50, nullable = false)
 	private String bairro;
 	@Column(name = "dataCad", nullable = false)
@@ -39,5 +42,5 @@ public class Candidato {
 	@ManyToOne
 	@JoinColumn(name = "curso_id")
 	private Curso curso;
-	private boolean aceitacao;
+	private Boolean aceitacao;
 }

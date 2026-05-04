@@ -13,14 +13,35 @@
 	<artifactId>EventoP2LBD</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name />
-	<description />
+	<name>EventoP2LBD</name>
+	<description> Uma aplicação web em Java (com Spring Boot) para um evento de
+		faculdade que funciona como um “oráculo” de curiosidades sobre
+		videogames (Microsoft, Nintendo, Sega e Sony) e, também
+		cadastra visitantes interessados em cursos. O sistema carrega dados de
+		arquivos TXT para o banco, exibe curiosidades aleatórias sem repetição
+		recente, e depois cadastra o usuário. Também possui
+		áreas administrativas protegidas por login para gerenciar mensagens e
+		consultar candidatos. Uso de procedures, Triggers e UDFs no SGBD.</description>
 	<url />
 	<licenses>
 		<license />
 	</licenses>
 	<developers>
-		<developer />
+		<developer>
+			<name>Gustavo O Carvalho</name>
+			<roles>
+				<role>Desenvolvedor de parte do Backend</role>
+			</roles>
+		</developer>
+		<developer>
+			<name>Felipe P Araujo</name>
+			<roles>
+				<role>Responsável pelo DataBase (DER, Tabelas, StoredProcedures,
+					Views) </role>
+				<role>Responsável pelo Diagrama de Classes</role>
+				<role>Desenvolvedor do Front</role>
+			</roles>
+		</developer>
 	</developers>
 	<scm>
 		<connection />

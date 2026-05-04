@@ -2,6 +2,7 @@ package br.edu.fzl.EventoP2LBD.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
@@ -22,6 +23,7 @@ import lombok.ToString;
 public class Curiosidade {
 
 	@Id
+	@GeneratedValue
 	@Column(name = "id", nullable = false)
 	private int id;
 	@Column(name = "conteudo", length = 256, nullable = false)

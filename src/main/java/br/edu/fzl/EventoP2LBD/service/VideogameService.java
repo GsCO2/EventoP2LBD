@@ -25,4 +25,8 @@ public class VideogameService {
 	public long count() {
 		return vRepository.count();
 	}
+	
+	public Videogame buscar(int id) {
+		return vRepository.findById(id).orElseThrow();
+	}
 }

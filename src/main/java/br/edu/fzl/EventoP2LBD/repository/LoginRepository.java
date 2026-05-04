@@ -9,6 +9,6 @@ import br.edu.fzl.EventoP2LBD.model.Candidato;
 
 @Repository
 public interface LoginRepository extends JpaRepository<Candidato, Long> {
-	@Query(value = "CALL validar_login :login, :senha", nativeQuery = true)
+	@Query(value = "EXEC sp_validarLogin :login, :senha", nativeQuery = true)
 	Integer validarLogin(@Param("login") String login, @Param("senha") String senha);
 }

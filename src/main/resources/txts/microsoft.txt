@@ -1,0 +1,17 @@
+Antes da Microsoft, Bill Gates e Paul Allen criaram a Traf-O-Data para processar dados de trânsito.
+Desde os anos 80, inicialmente com o MS-DOS, e depois com o Windows, a Microsoft ajudou a tornar computadores pessoais acessíveis.
+O primeiro nome do Xbox foi DirectX Box, originado do driver DirectX, que facilita a comunicação entre jogo e hardware (GPU).
+O primero software da Microsoft foi uma versão de basic para microcomputadores produzida quando Bill Gates ainda estudava em Harvard.
+O logo e a identidade visual do Xbox são verdes por ser a única cor disponível ao artista no momento da criação da identidade visual.
+A Microsoft criou uma linguagem de programação chamada TypeScript, que hoje está entre as 15 linguagens mais populares.
+Originalmente o nome Microsoft era hifenizado, Micro-Soft. Esse nome tem como origem o termo Microprocessor Software.
+Em 1994, a Microsoft desenvolveu o Datalink 150, primeiro relógio a receber dados de um computador sem o uso de fios, chegando até mesmo a ser utilizado por astronautas da NASA.
+A Microsoft no Xbox 360 exigiu que todos os jogos suportassem conquistas, popularizando esse sistema.
+O Xbox foi o primeiro videogame com HDD, não dependendo de memory cards.
+O primeiro computador a usar o Windows foi o IBM PC XT, em 1985. O computador possuía uma configuração de 128K EGA (video), 640K RAM, 10Mb de disco rígido.
+O Hotmail foi um dos primeiros serviços de e-mails baseados na web.
+O Primeiro Xbox tinha um arquitetura similar a computadores, facilitando o desenvolvimento de jogos.
+O Windows 95 foi um enorme sucesso global e ajudou a popularizar a interface gráfica com o botão iniciar, facilitando o uso e deixando o sistema mais intuitivo a leigos.
+O pacote Office (Word, Excel) foi lançado inicialmente para computadores Macintosh da Apple em 1989.
+
+

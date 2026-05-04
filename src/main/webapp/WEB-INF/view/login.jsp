@@ -4,7 +4,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Login Administrativo - Fatec</title>
+    <title>Login</title>
     <link rel="stylesheet" href="<c:url value='/css/style.css'/>">
 </head>
 <body class="admin-body">
@@ -35,7 +35,7 @@
         </form>
         
         <div style="margin-top: 20px; text-align: center;">
-            <a href="<c:url value='/candidato/cadastro'/>" style="color: #ccc; text-decoration: none; font-size: 0.8rem;">Voltar ao Início</a>
+            <a href="<c:url value='/'/>" style="color: #ccc; text-decoration: none; font-size: 0.8rem;">Voltar ao Início</a>
         </div>
     </div>
 </div>

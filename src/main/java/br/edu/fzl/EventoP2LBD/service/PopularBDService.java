@@ -9,11 +9,13 @@ import java.io.InputStreamReader;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.util.ResourceUtils;
 
 import br.edu.fzl.EventoP2LBD.model.Curiosidade;
 import br.edu.fzl.EventoP2LBD.model.Videogame;
 
+@Service
 public class PopularBDService {
 	@Autowired
 	private VideogameService vService;
@@ -27,7 +29,7 @@ public class PopularBDService {
 	}
 
 	private void popularVideogames() throws FileNotFoundException, IOException {
-		if (vService.count() > 0) {
+		if (vService.count() > 0) {	
 			return;
 		}
 
@@ -70,7 +72,7 @@ public class PopularBDService {
 			while ((linha = buffer.readLine()) != null) {
 				Curiosidade c = new Curiosidade();
 				c.setConteudo(linha.trim());
-				c.setVideogame(videogame);
+				c.setVideogame(videogame);	
 				cService.inserir(c);
 			}
 			buffer.close();
